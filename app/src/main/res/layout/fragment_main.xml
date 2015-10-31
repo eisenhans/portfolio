@@ -23,27 +23,33 @@
 
         <Button
             android:text="Spotify Streamer"
-            style="@style/Button" />
+            style="@style/Button"
+            android:onClick="displayToast" />
 
         <Button
             android:text="Scores App"
-            style="@style/Button" />
+            style="@style/Button"
+            android:onClick="displayToast" />
 
         <Button
             android:text="Library App"
-            style="@style/Button" />
+            style="@style/Button"
+            android:onClick="displayToast" />
 
         <Button
             android:text="Build it Bigger"
-            style="@style/Button" />
+            style="@style/Button"
+            android:onClick="displayToast" />
 
         <Button
             android:text="XYZ Reader"
-            style="@style/Button" />
+            style="@style/Button"
+            android:onClick="displayToast" />
 
         <Button
             android:text="Capstone: My Own App"
-            style="@style/Button.Red" />
+            style="@style/Button.Red"
+            android:onClick="displayToast" />
 
     </LinearLayout>
 
