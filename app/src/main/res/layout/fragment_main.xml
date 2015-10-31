@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:showIn="@layout/activity_main" tools:context=".MainActivityFragment"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Nanodegree Apps"
+        android:layout_margin="24sp"
+        style="@style/Heading" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <Button
+            android:text="Spotify Streamer"
+            style="@style/Button" />
+
+        <Button
+            android:text="Scores App"
+            style="@style/Button" />
+
+        <Button
+            android:text="Library App"
+            style="@style/Button" />
+
+        <Button
+            android:text="Build it Bigger"
+            style="@style/Button" />
+
+        <Button
+            android:text="XYZ Reader"
+            style="@style/Button" />
+
+        <Button
+            android:text="Capstone: My Own App"
+            style="@style/Button.Red" />
+
+    </LinearLayout>
+
+</LinearLayout>
